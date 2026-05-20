@@ -565,6 +565,7 @@ Git trabaja con tres estados principales:
 | Confirmado (Repository) | El cambio ya fue guardado en el historial |
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryTextColor': '#fff', 'primaryColor': '#1a1a2e', 'lineColor': '#e0e0e0', 'secondaryTextColor': '#fff', 'tertiaryTextColor': '#fff'}}}%%
 flowchart LR
     WD[📁 Working Directory\nDirectorio de Trabajo]
     SA[📦 Staging Area\nArea de Preparacion]
@@ -576,9 +577,9 @@ flowchart LR
     SA -->|git restore --staged| WD
     LR2 -->|git restore| WD
 
-    style WD fill:#ffcccc,stroke:#cc0000,stroke-width:2px
-    style SA fill:#ccffcc,stroke:#00cc00,stroke-width:2px
-    style LR2 fill:#ccccff,stroke:#0000cc,stroke-width:2px
+    style WD fill:#e03131,stroke:#c92a2a,stroke-width:2px,color:#fff
+    style SA fill:#2f9e44,stroke:#2b8a3e,stroke-width:2px,color:#fff
+    style LR2 fill:#1971c2,stroke:#1864ab,stroke-width:2px,color:#fff
 ```
 
 **Como funciona el flujo**:

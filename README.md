@@ -566,26 +566,7 @@ Git trabaja con tres estados principales:
 | Preparado (Staging Area) | El archivo esta listo para entrar al proximo commit |
 | Confirmado (Repository) | El cambio ya fue guardado en el historial |
 
-#### Diagrama De Los Tres Estados
-
-> Puedes abrir el diagrama editable en [Excalidraw](https://excalidraw.com/) subiendo el archivo [`estados-git.excalidraw`](./imagenes/estados-git.excalidraw).
-
-```mermaid
-flowchart LR
-    WD[📁 Working Directory\nDirectorio de Trabajo]
-    SA[📦 Staging Area\nArea de Preparacion]
-    LR2[💾 Local Repository\nRepositorio Local]
-
-    WD -->|git add| SA
-    SA -->|git commit| LR2
-    LR2 -->|git checkout| WD
-    SA -->|git restore --staged| WD
-    LR2 -->|git restore| WD
-
-    style WD fill:#ffcccc,stroke:#cc0000,stroke-width:2px
-    style SA fill:#ccffcc,stroke:#00cc00,stroke-width:2px
-    style LR2 fill:#ccccff,stroke:#0000cc,stroke-width:2px
-```
+> **Diagrama editable**: Puedes abrir y modificar el diagrama en [Excalidraw](https://excalidraw.com/) subiendo el archivo [`estados-git.excalidraw`](./imagenes/estados-git.excalidraw).
 
 **Como funciona el flujo**:
 

@@ -12,17 +12,18 @@ Aprende Git y GitHub desde fundamentos hasta flujos colaborativos reales, con ex
 | Bloque | Tema | Ir |
 |---|---|---|
 | 01 | Fundamentos de control de versiones | [Abrir](#fundamentos-del-control-de-versiones) |
-| 02 | Git, GitHub y ramas | [Abrir](#git-github-y-ramas) / [Ramas en Git](#ramas-en-git-trabajo-paralelo-merge-y-conflictos) |
-| 03 | Terminal y Linux basico | [Abrir](#terminal-y-linux-basico) |
-| 04 | Instalacion y configuracion | [Abrir](#instalacion-y-configuracion-de-git) |
-| 05 | Repositorio local y flujo de trabajo | [Abrir](#primer-repositorio-local) |
-| 06 | Estados, staging y commits | [Abrir](#estados-staging-y-commits) |
-| 07 | Deshacer cambios y `.gitignore` | [Deshacer](#deshacer-cambios-en-git) / [Gitignore](#gitignore-y-buenas-practicas) |
-| 08 | Laboratorio y recursos | [Laboratorio](#laboratorio-primer-flujo-local-con-git) / [Recursos](#material-complementario) |
+| 02 | Git y GitHub | [Abrir](#git-github-y-ramas) |
+| 03 | Ramas en Git: trabajo paralelo, merge y conflictos | [Abrir](#ramas-en-git-trabajo-paralelo-merge-y-conflictos) |
+| 04 | Terminal y Linux basico | [Abrir](#terminal-y-linux-basico) |
+| 05 | Instalacion y configuracion | [Abrir](#instalacion-y-configuracion-de-git) |
+| 06 | Repositorio local y flujo de trabajo | [Abrir](#primer-repositorio-local) |
+| 07 | Estados, staging y commits | [Abrir](#estados-staging-y-commits) |
+| 08 | Deshacer cambios y `.gitignore` | [Deshacer](#deshacer-cambios-en-git) / [Gitignore](#gitignore-y-buenas-practicas) |
+| 09 | Laboratorio y recursos | [Laboratorio](#laboratorio-primer-flujo-local-con-git) / [Recursos](#material-complementario) |
 
 > Este indice se mantendra corto aunque el curso crezca. Cada bloque contiene explicaciones, comandos y diagramas dentro de su propia seccion.
 
-> **Nuevo:** la teoria completa de ramas, merge, conflictos y limpieza esta en [Ramas En Git: Trabajo Paralelo, Merge Y Conflictos](#ramas-en-git-trabajo-paralelo-merge-y-conflictos).
+> **Nuevo:** la teoria completa de ramas, merge, conflictos y limpieza ahora tiene su propio bloque en el indice: [Ramas En Git: Trabajo Paralelo, Merge Y Conflictos](#ramas-en-git-trabajo-paralelo-merge-y-conflictos).
 
 ---
 

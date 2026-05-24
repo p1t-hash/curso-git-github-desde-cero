@@ -2,7 +2,7 @@
 
 En este punto ya no basta con saber guardar cambios. Tambien necesitamos leer el historial para entender que paso, comparar modificaciones antes de confirmar y corregir errores sin romper el trabajo de otras personas.
 
-Esta parte cierra el recorrido principal de la guia: ya sabemos crear commits, movernos con ramas, fusionar trabajo y corregir errores comunes sin perder el control del historial.
+Esta parte prepara el cierre del recorrido: ya sabemos crear commits, movernos con ramas, fusionar trabajo y corregir errores comunes sin perder el control del historial.
 
 ## Leer El Historial Como Mapa
 
@@ -81,9 +81,9 @@ La regla practica es simple:
 - Si el commit todavia es tuyo y no lo compartiste, puedes usar `amend` o `reset`.
 - Si el historial ya fue compartido, `revert` suele ser la opcion mas sana porque no borra historia.
 
-## Temas Para Ampliar Despues
+## Temas Para Seguir Profundizando
 
-Git tiene mas herramientas, pero conviene verlas cuando la base anterior ya este clara. Estos temas quedan como siguiente nivel de estudio:
+Git tiene mas herramientas, pero conviene verlas cuando la base anterior ya este clara. En este curso seguimos con `rebase` y limpieza de historial; despues pueden venir `stash`, `cherry-pick`, `reflog` y hooks.
 
 ```mermaid
 flowchart LR
@@ -103,4 +103,4 @@ flowchart LR
 
 ---
 
-[&larr; Anterior: Merge y conflictos](./11-merge-conflictos.md) | [Siguiente: Bonus - Loki y la Linea Temporal &rarr;](./12-bonus-loki.md)
+[&larr; Anterior: Merge y conflictos](./11-merge-conflictos.md) | [Siguiente: Rebase y limpieza de historial &rarr;](./12-rebase-limpieza-historial.md)

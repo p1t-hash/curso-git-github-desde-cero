@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Comparar `merge` y `rebase` con un ejemplo corto, facil de escribir en vivo y facil de graficar con:
+Comparar `merge` y `rebase` con un ejemplo corto y facil de visualizar con:
 
 ```bash
 git log --oneline --graph --all --decorate

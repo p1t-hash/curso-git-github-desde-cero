@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Repasar en un solo ejercicio los temas principales vistos en clase:
+Repasar en un solo ejercicio los temas principales de Git local:
 
 - repositorio local,
 - `status`, `add`, `commit`,

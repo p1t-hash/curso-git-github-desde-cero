@@ -139,9 +139,9 @@ Preguntas utiles:
 
 `rebase` no reemplaza a `merge`. Es otra herramienta. Sirve muy bien para ordenar trabajo propio antes de integrarlo, pero debe usarse con cuidado cuando el historial ya fue compartido.
 
-## Practica Recomendada
+## Laboratorios Relacionados
 
-Para explicar este tema en vivo:
+Estos laboratorios refuerzan la diferencia entre `merge`, `rebase` y la integracion del flujo local:
 
 - [Merge vs Rebase corto](../laboratorios/merge-vs-rebase-corto.md): compara la misma situacion resuelta con `merge` y con `rebase`.
 - [Ejercicio integrador de Git](../laboratorios/ejercicio-integrador-git.md): cierra Git local usando commits, ramas, conflictos, deshacer cambios y rebase.

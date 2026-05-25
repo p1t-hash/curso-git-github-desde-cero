@@ -5,7 +5,7 @@
 ![Nivel](https://img.shields.io/badge/Nivel-Inicial-brightgreen)
 ![Estado](https://img.shields.io/badge/Estado-Actualizado-blue)
 
-Aprende Git y GitHub desde fundamentos hasta trabajo local, ramas, conflictos, lectura de historial, deshacer cambios y rebase, con explicaciones simples, comandos practicos y laboratorios para practicar desde casa.
+Aprende Git y GitHub desde fundamentos hasta trabajo local, ramas, conflictos, lectura de historial, deshacer cambios y rebase, con explicaciones simples, comandos practicos y laboratorios guiados.
 
 ## Ruta De Aprendizaje
 
@@ -62,7 +62,7 @@ flowchart LR
 | Laboratorio | Descripcion | Ir |
 |---|---|---|
 | Primer flujo local con Git | Practica el ciclo basico: modificar, preparar, confirmar y revisar historial | [Abrir](./laboratorios/primer-flujo-local-con-git.md) |
-| Merge con conflicto corto | Practica una fusion con conflicto facil de explicar en vivo | [Abrir](./laboratorios/merge-con-conflicto-corto.md) |
+| Merge con conflicto corto | Practica una fusion con conflicto sobre una misma linea | [Abrir](./laboratorios/merge-con-conflicto-corto.md) |
 | Merge vs Rebase corto | Compara historial con merge e historial lineal con rebase | [Abrir](./laboratorios/merge-vs-rebase-corto.md) |
 | Ejercicio integrador de Git | Repaso general: commits, ramas, conflictos, restore, amend y rebase | [Abrir](./laboratorios/ejercicio-integrador-git.md) |
 

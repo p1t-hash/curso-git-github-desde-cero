@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Practicar `git merge` con un conflicto pequeno y facil de explicar en vivo.
+Practicar `git merge` con un conflicto pequeno, claro y enfocado en una misma linea de archivo.
 
 La idea es que dos ramas cambien la misma linea de un archivo. Git no puede decidir por nosotros, asi que debemos resolver manualmente.
 

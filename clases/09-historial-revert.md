@@ -6,7 +6,7 @@ Esta parte prepara el cierre del recorrido: ya sabemos crear commits, movernos c
 
 ## Leer El Historial Como Mapa
 
-El historial no es una lista decorativa. Es la bitacora del proyecto. Si esta bien escrito, te permite reconstruir decisiones tecnicas sin tener que preguntar todo de nuevo.
+El historial no es una lista decorativa. Es la bitacora del proyecto. Si esta bien escrito, permite reconstruir decisiones tecnicas sin revisar todo manualmente.
 
 Comandos utiles:
 
@@ -101,9 +101,9 @@ flowchart LR
     style F fill:#da3633,stroke:#f85149,color:#fff
 ```
 
-## Practica De Cierre
+## Laboratorios Relacionados
 
-Para cerrar la parte de Git local, usa estos ejercicios:
+Estos laboratorios refuerzan la lectura del historial y el cierre del flujo local:
 
 - [Merge vs Rebase corto](../laboratorios/merge-vs-rebase-corto.md): muestra la diferencia entre conservar caminos con `merge` y linealizar historia con `rebase`.
 - [Ejercicio integrador de Git](../laboratorios/ejercicio-integrador-git.md): repasa `status`, `add`, `commit`, `diff`, `.gitignore`, ramas, conflictos, `restore`, `amend`, `rebase` e historial.

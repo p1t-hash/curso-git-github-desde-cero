@@ -101,6 +101,13 @@ flowchart LR
     style F fill:#da3633,stroke:#f85149,color:#fff
 ```
 
+## Practica De Cierre
+
+Para cerrar la parte de Git local, usa estos ejercicios:
+
+- [Merge vs Rebase corto](../laboratorios/merge-vs-rebase-corto.md): muestra la diferencia entre conservar caminos con `merge` y linealizar historia con `rebase`.
+- [Ejercicio integrador de Git](../laboratorios/ejercicio-integrador-git.md): repasa `status`, `add`, `commit`, `diff`, `.gitignore`, ramas, conflictos, `restore`, `amend`, `rebase` e historial.
+
 ---
 
 [&larr; Anterior: Merge y conflictos](./11-merge-conflictos.md) | [Siguiente: Rebase y limpieza de historial &rarr;](./12-rebase-limpieza-historial.md)

@@ -62,6 +62,9 @@ flowchart LR
 | Laboratorio | Descripcion | Ir |
 |---|---|---|
 | Primer flujo local con Git | Practica el ciclo basico: modificar, preparar, confirmar y revisar historial | [Abrir](./laboratorios/primer-flujo-local-con-git.md) |
+| Merge con conflicto corto | Practica una fusion con conflicto facil de explicar en vivo | [Abrir](./laboratorios/merge-con-conflicto-corto.md) |
+| Merge vs Rebase corto | Compara historial con merge e historial lineal con rebase | [Abrir](./laboratorios/merge-vs-rebase-corto.md) |
+| Ejercicio integrador de Git | Repaso general: commits, ramas, conflictos, restore, amend y rebase | [Abrir](./laboratorios/ejercicio-integrador-git.md) |
 
 ## Material De Apoyo
 

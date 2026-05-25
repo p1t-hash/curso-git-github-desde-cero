@@ -274,6 +274,13 @@ Repositorio limpio:
 - `git add` despues de resolver un conflicto significa "ya lo resolvi".
 - Las ramas temporales deben eliminarse despues de fusionarse.
 
+## Practica Recomendada
+
+Para practicar el tema en clase o desde casa:
+
+- [Merge con conflicto corto](../laboratorios/merge-con-conflicto-corto.md): ejercicio breve para entender conflictos editando una sola linea.
+- [Merge vs Rebase corto](../laboratorios/merge-vs-rebase-corto.md): comparacion visual entre fusionar ramas y reordenar commits.
+
 ## Laboratorio Rapido: Cafe Aroma
 
 Ejecuta este flujo completo para practicar ramas sin conflicto:

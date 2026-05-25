@@ -30,31 +30,44 @@ Aprende Git y GitHub desde fundamentos hasta trabajo local, ramas, conflictos, l
 ### Mapa Rapido De La Guia
 
 ```mermaid
-flowchart LR
-    A["Fundamentos"] --> D["Git y GitHub"]
-    D --> B["Terminal"]
-    B --> C["Instalacion"]
-    C --> E["Repositorio local"]
-    E --> F["Staging y commits"]
-    F --> G["Deshacer cambios"]
-    G --> H["Gitignore"]
-    H --> J["Ramas"]
-    J --> K["Merge y conflictos"]
-    K --> I["Historial y revert"]
-    I --> L["Rebase y limpieza"]
+flowchart TB
+    subgraph S1["1. Base Para Empezar"]
+      A["Fundamentos"]
+      B["Git y GitHub"]
+      C["Terminal"]
+      D["Instalacion"]
+    end
 
-    style A fill:#1f6feb,stroke:#58a6ff,color:#fff
-    style B fill:#238636,stroke:#3fb950,color:#fff
-    style C fill:#8957e5,stroke:#bc8cff,color:#fff
-    style D fill:#30363d,stroke:#8b949e,color:#fff
-    style E fill:#1f6feb,stroke:#58a6ff,color:#fff
-    style F fill:#9e6a03,stroke:#d29922,color:#fff
-    style G fill:#da3633,stroke:#f85149,color:#fff
-    style H fill:#238636,stroke:#3fb950,color:#fff
-    style I fill:#30363d,stroke:#8b949e,color:#fff
-    style J fill:#1f6feb,stroke:#58a6ff,color:#fff
-    style K fill:#8957e5,stroke:#bc8cff,color:#fff
-    style L fill:#9e6a03,stroke:#d29922,color:#fff
+    subgraph S2["2. Flujo Local"]
+      E["Repositorio local"]
+      F["Staging y commits"]
+      G["Deshacer cambios"]
+      H[".gitignore"]
+    end
+
+    subgraph S3["3. Trabajo Con Ramas"]
+      I["Ramas"]
+      J["Merge y conflictos"]
+    end
+
+    subgraph S4["4. Historial Y Cierre De Git"]
+      K["Historial y revert"]
+      L["Rebase y limpieza"]
+    end
+
+    A --> B --> C --> D
+    D --> E --> F --> G --> H
+    H --> I --> J
+    J --> K --> L
+
+    classDef base fill:#1f6feb,stroke:#58a6ff,color:#fff
+    classDef local fill:#238636,stroke:#3fb950,color:#fff
+    classDef ramas fill:#8957e5,stroke:#bc8cff,color:#fff
+    classDef cierre fill:#9e6a03,stroke:#d29922,color:#fff
+    class A,B,C,D base
+    class E,F,G,H local
+    class I,J ramas
+    class K,L cierre
 ```
 
 ## Laboratorio

@@ -5,7 +5,7 @@
 ![Nivel](https://img.shields.io/badge/Nivel-Inicial-brightgreen)
 ![Estado](https://img.shields.io/badge/Estado-Actualizado-blue)
 
-Aprende Git y GitHub desde fundamentos hasta trabajo local, ramas, conflictos, lectura de historial, deshacer cambios y rebase, con explicaciones simples, comandos practicos y laboratorios guiados.
+Aprende Git y GitHub desde fundamentos hasta trabajo local, ramas, conflictos, lectura de historial, deshacer cambios y rebase y GITHUB, con explicaciones simples, comandos practicos y laboratorios guiados.
 
 ## Como Usar Esta Guia
 
